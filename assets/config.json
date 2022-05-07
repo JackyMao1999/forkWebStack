@@ -8,7 +8,8 @@
 			{ 
 				"title":"摄影专用" , "icon":"linecons-doc", "data":[
 					{ "title":"摄影论坛"},
-					{ "title":"审美提升"}
+					{ "title":"审美提升"},
+					{ "title":"素材基地"}
 				]
 			}
 		]
@@ -44,7 +45,13 @@
 				{ "url": "http://www.cnu.cc/" , "data_original_title": "http://www.cnu.cc/" , "imgurl":"http://imgoss.cnu.cc/assets/images/favicon.ico", "name": "CNU视觉联盟", "description": "提升审美"},
 				{ "url": "https://x-space.fujifilm.com.cn/" , "data_original_title": "https://x-space.fujifilm.com.cn/" , "imgurl":"https://x-space.fujifilm.com.cn/favicon.ico", "name": "富士中国", "description": "富士（中国）极致影像- FUJIFILM"},
 				{ "url": "https://models.com/" , "data_original_title": "https://models.com/" , "imgurl":"https://models.com/favicon.ico", "name": "Models.com", "description": "Models.com is a defining fashion industry news resource, highlighting the models and the creative stars of the industry"},
-				{ "url": "http://numero.com.cn/" , "data_original_title": "http://numero.com.cn/" , "imgurl":"", "name": "大都市", "description": ""}	
+				{ "url": "http://numero.com.cn/" , "data_original_title": "http://numero.com.cn/" , "imgurl":"http://numero.com.cn/favicon.ico", "name": "大都市", "description": ""}	
+			]
+		},
+		{ 
+			"h4_name": "素材基地" , "data": [
+				{ "url": "https://woaihouqi.com/forum.php" , "data_original_title": "https://woaihouqi.com/" , "imgurl":"https://woaihouqi.com/favicon.ico", "name": "我爱后期", "description": "好用的Lr,Lut等素材免费下载网站"},
+				{ "url": "https://www.ear0.com/" , "data_original_title": "https://www.ear0.com/" , "imgurl":"https://www.ear0.com/public/images/favicon.ico", "name": "耳聆网", "description": "听见世界之美 - (声音分享云|音效素材库)"}
 			]
 		}
 	]

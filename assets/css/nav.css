@@ -29,7 +29,7 @@
 .xe-comment-entry img {
     float: left;
     display: block;
-    margin-right: 10px;
+    margin: 5px 10px 5px 0px;
 }
 .xe-comment {
     transform: translateY(-50%);

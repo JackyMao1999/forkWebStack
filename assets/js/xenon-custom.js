@@ -111,7 +111,7 @@ var public_vars = public_vars || {};
 											<div class=\"xe-widget xe-conversations box2 label-info\" onclick=\"window.open('"+ item.url +"', '_blank')\" data-toggle=\"tooltip\" data-placement=\"bottom\" title=\"\" data-original-title=\""+ item.data_original_title +"\">\
 												<div class=\"xe-comment-entry\">\
 													<a class=\"xe-user-img\">\
-														<img src=\""+ item.imgurl +"\" class=\"lozad img-circle\" width=\"40\">\
+														<img src=\""+ item.imgurl +"\" class=\" img-rounded\" width=\"40\">\
 													</a>\
 													<div class=\"xe-comment\">\
 														<a href=\"#\" class=\"xe-user-name overflowClip_1\">\
