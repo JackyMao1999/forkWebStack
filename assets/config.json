@@ -12,6 +12,9 @@
 					{ "title":"素材基地"}
 				]
 			}
+		],
+		"links":[
+			{ "url":"about.html", "title":"常用推荐", "info":"♥︎"}
 		]
     },
 	"main_content" : [

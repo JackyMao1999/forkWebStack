@@ -69,7 +69,7 @@ var public_vars = public_vars || {};
                             </li>";    
                     $(".main-menu").append(txt1)
                 });
-                
+
                 $.each (data["main_menu"]["list"], function (i, item)
                 {
                     var menu_ul = $("<ul></ul>")
@@ -92,6 +92,19 @@ var public_vars = public_vars || {};
                     menu_li.append(menu_ul)
                     $(".main-menu").append(menu_li)
                 });
+
+				$.each (data["main_menu"]["links"], function (i, item)
+                {
+                    var txt1="<li>\
+									<a href=\""+ item.url +"\">\
+									<i class=\"linecons-heart\"></i>\
+                                    <span class=\"title\">"+ item.title +"</span>\
+									<span class=\"label label-Primary pull-right hidden-collapsed\">"+ item.info +"</span>\
+                                </a>\
+                            </li>";    
+                    $(".main-menu").append(txt1)
+                });
+
 				// 添加右边的网站
 				$.each (data["main_content"], function (i, item)
                 {
