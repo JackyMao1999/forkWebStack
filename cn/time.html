@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="viggo" />
+    <title>JackyMao - Kindle Time</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <script src="../assets/js/jquery-1.11.1.min.js"></script>
+</head>
+
+<body class="page-body">
+    <div class="container">
+        <div class="container_logo">
+            <img src="../assets/images/volcano_b_logo.png" width="60%" alt="" />
+        </div>
+        <div class="container_time">
+        </div>
+    </div>
+    
+
+    <script>
+        var time = setInterval(getTime, 1000)
+        $(document).ready(function() {
+            
+        });
+        
+        function getTime() {
+            var date = new Date();
+            var hour = date.getHours()
+            var minute = date.getMinutes()
+            var second = date.getSeconds()
+            if(second < 10){ second = "0" + second}
+            $(".container_time").text(hour +":"+ minute +":"+ second)
+        }
+    </script>
+    <style>
+        .container{
+            /* position: relative;
+            transform: translate(0%, 100%); */
+            margin-top:30%;
+        }
+        .container_logo{
+            text-align: center;
+            line-height:height;
+            height:50%
+        }
+        .container_time{
+            text-align: center;
+            font-size:120px;
+            margin: 50px;
+            
+        }
+    </style>
+</body>
+
+</html>
