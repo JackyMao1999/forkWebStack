@@ -11,6 +11,16 @@
 					{ "title":"审美提升"},
 					{ "title":"素材基地"}
 				]
+			},
+			{ 
+				"title":"下载资源" , "icon":"linecons-doc", "data":[
+					{ "title":"书籍下载"}
+				]
+			},
+			{ 
+				"title":"开发技术" , "icon":"linecons-doc", "data":[
+					{ "title":"Web技术"}
+				]
 			}
 		],
 		"links":[
@@ -54,7 +64,24 @@
 		{ 
 			"h4_name": "素材基地" , "data": [
 				{ "url": "https://woaihouqi.com/forum.php" , "data_original_title": "https://woaihouqi.com/" , "imgurl":"https://woaihouqi.com/favicon.ico", "name": "我爱后期", "description": "好用的Lr,Lut等素材免费下载网站"},
-				{ "url": "https://www.ear0.com/" , "data_original_title": "https://www.ear0.com/" , "imgurl":"https://www.ear0.com/public/images/favicon.ico", "name": "耳聆网", "description": "听见世界之美 - (声音分享云|音效素材库)"}
+				{ "url": "https://www.ear0.com/" , "data_original_title": "https://www.ear0.com/" , "imgurl":"https://www.ear0.com/public/images/favicon.ico", "name": "耳聆网", "description": "听见世界之美 - (声音分享云|音效素材库)"},
+				{ "url": "https://51font.17font.com/" , "data_original_title": "https://51font.17font.com/" , "imgurl":"https://resources.17font.com/fontfree/favicon.ico", "name": "51Font", "description": "免费字体发布平台"}
+
+			]
+		},
+		{ 
+			"h4_name": "书籍下载" , "data": [
+				{ "url": "https://bookfere.com/" , "data_original_title": "https://bookfere.com/" , "imgurl":"https://bookfere.com/favicon.ico", "name": "书伴", "description": "你的电子书伴侣，kindle助手"},
+				{ "url": "https://www.yuedu.pro/" , "data_original_title": "https://www.yuedu.pro/" , "imgurl":"https://www.yuedu.pro/zb_users/theme/suiranx_nav/image/favicon.ico", "name": "阅读链", "description": "电子书下载、书单推荐、阅读交流网站"},
+				{ "url": "https://yabook.blog/" , "data_original_title": "https://yabook.blog/" , "imgurl":"https://yabook.blog/favicon.ico", "name": "雅书", "description": "个人学习好书推荐博客"},
+				{ "url": "https://www.bookresource.net/" , "data_original_title": "https://www.bookresource.net/" , "imgurl":"https://www.bookresource.net/favicon.ico", "name": "电子书资源网", "description": "PDF电子书,电子书下载,电子书资源"}
+
+			]
+		},
+		{ 
+			"h4_name": "Web技术" , "data": [
+				{ "url": "https://developer.mozilla.org/zh-CN/docs/Web" , "data_original_title": "https://developer.mozilla.org/" , "imgurl":"https://developer.mozilla.org/favicon-48x48.cbbd161b.png", "name": "MDN web docs", "description": "面向web开发者的文档"}
+
 			]
 		}
 	]
