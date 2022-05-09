@@ -86,20 +86,9 @@
                 <!-- 搜索按钮 -->
                 <ul class="search_form" style="position: relative ; width: 50%; float: right; padding: 17px 0px">
                     <input class="search_form_text" type="text" style="border-radius: 25px; width:60%; height:45px; font-size: 20px;"></input>
-                    <a class="search_form_button" href="" target="_blank"><strong style="font-size: 20px;">百度一下</strong></a>
+                    <a class="search_form_button" ><strong style="font-size: 20px;">百度一下</strong></a>
                 </ul>
-                <!-- <ul class="user-info-menu right-links list-inline list-unstyled">
-                    <li class="hidden-sm hidden-xs">
-                        <a href="https://github.com/WebStackPage/WebStackPage.github.io" target="_blank">
-                            <i class="fa-github"></i>  GitHub
-                        </a>
-                    </li>
-                </ul> -->
-                <!-- <a href="https://github.com/WebStackPage/WebStackPage.github.io" target="_blank"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a> -->
-
             </nav>
-            
-            <!--END UED团队 -->
             <!-- Main Footer -->
             <!-- Choose between footer styles: "footer-type-1" or "footer-type-2" -->
             <!-- Add class "sticky" to  always stick the footer to the end of page (if page contents is small) -->
@@ -130,11 +119,18 @@
         const observer = lozad();
         observer.observe();
 
+        // input下按下回车执行搜索
+        $(".search_form_text").bind('keyup', function(e) {
+            if (e.keyCode == 13) {
+                $(".search_form_button").click()
+            }
+        });
+
         // 搜索按钮被点下
         $(document).on('click', '.search_form_button', function(){
             var input_text = $(".search_form_text").val()
             var link_href = "https://www.baidu.com/s?wd=" + input_text
-            $('.search_form_button').attr('href', link_href)            
+            window.open(link_href, '_blank')    
         })
 
         $(document).on('click', '.has-sub', function(){

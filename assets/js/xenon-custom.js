@@ -118,7 +118,6 @@ var public_vars = public_vars || {};
 						if(j % 4 == 0)
 						{
 							row = $("<div class=\"row\"></div>") 
-							console.log(data["main_content"][i]["data"].length)
 						}
 						var col_sm_3 = "<div class=\"col-sm-3\">\
 											<div class=\"xe-widget xe-conversations box2 label-info\" onclick=\"window.open('"+ item.url +"', '_blank')\" data-toggle=\"tooltip\" data-placement=\"bottom\" title=\"\" data-original-title=\""+ item.data_original_title +"\">\
